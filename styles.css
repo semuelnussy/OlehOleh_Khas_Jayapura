@@ -1,0 +1,125 @@
+header h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    
+    text-align: center;
+}
+
+header {
+    
+    background-image: url('images/bck.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+header {
+    min-height: 150px; 
+    padding: 10px;
+}
+
+
+@media (max-width: 480px) {
+header {
+    min-height: 120px;
+    padding: 5px;
+}
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.product-container {
+    text-align: center;
+}
+
+.product-container img {
+    display: block;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+    
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    border: px solid #5b93ba;
+    box-shadow: 5px 5px 15px rgba(6, 0, 117, 0.445); 
+    padding: 100px;
+    margin: 10px 0;
+    text-align: center;
+    
+}
+.menu-item h3 {
+    font-size: 24px;
+    color: #333; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-item p {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #d9534f; 
+    font-family: 'Arial', sans-serif; 
+}
+.product-description {
+    font-style: italic;
+    font-size: 12px !important;
+    color: #444 !important;
+    
+}
+button {
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    background-color: #58ed8f; 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+    box-shadow: 5px 3px 10px rgba(54, 41, 41, 0.3);
+}
+
+button:hover {
+    background-color: #409a64; 
+}
+
+
+footer {
+    background-image: url('images/bawa.png'); 
+    text-align: center;
+    padding: 10px 0;
+    background-color: #075209;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    
+    text-align: center;
+}
